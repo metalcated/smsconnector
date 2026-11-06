@@ -1,0 +1,24 @@
+{
+    "rawname": "smsconnector",
+    "repo": "unsupported",
+    "name": "SMS Connector",
+    "version": "16.0.18.1",
+    "publisher": "metalcated (fork of Simon Telephonics LLC)",
+    "license": "GPLv3+",
+    "licenselink": "https://www.gnu.org/licenses/gpl-3.0.txt",
+    "changelog": "Fork build: normalize Telnyx SMS/MMS source prefixes; dedicated fork update channel.",
+    "category": "Connectivity",
+    "description": "Implements a generic SMS connector",
+    "depends": {
+        "version": "16",
+        "module": [
+            "sms",
+            "userman",
+            "sipsettings"
+        ]
+    },
+    "supported": {
+        "version": "16.0"
+    },
+    "location": "https://github.com/metalcated/smsconnector/releases/download/v16.0.18.1/smsconnector-16.0.18.1.tar.gz"
+}
